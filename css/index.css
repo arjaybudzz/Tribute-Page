@@ -1,0 +1,110 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+
+  p {
+      font-family: arial;
+      font-size: 20px;
+      color: white;
+  }
+  #picture {
+      display: flex;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+  }
+
+  #image {
+      width: 100%;
+      position: fixed;
+  }
+
+  #main {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      background-color: rgba(0, 0, 0, 0.8);
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      justify-content: center;
+  }
+
+  #header {
+      display:flex;
+      flex-direction: column;
+      font-family: Arial;
+      color: white;
+      align-items: center;
+  }
+
+  #title {
+      font-size: 60px;
+      margin-bottom: 0;
+      margin-top: 0;
+  }
+
+  #achievement {
+      font-size: 30px;
+      margin-bottom: 0;
+  }
+
+  #subtext {
+      font-size: 20px;
+      font-style: italic;
+      font-weight: normal;
+  }
+
+  #info {
+      display: flex;
+      flex-direction: row;
+      height:300px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 70px;
+      column-gap: 50px;
+  }
+
+  #early-days, #peak-years, #life-after-chess {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 350px;
+      width: 350px;
+      border: 1px;
+      border-color: black;
+      border-style: solid;
+      transition: height, width 0.15s;
+  }
+  #child {
+      height: 294px;
+      width: 300px;
+  }
+
+  #champion {
+      height: 294px;
+      width: 300px;
+  }
+
+  #politician {
+      height: 294px;
+      width: 300px;
+  }
+
+  #early-days:hover, #peak-years:hover, #life-after-chess:hover {
+      cursor: pointer;
+      height: 370px;
+      width: 370px;
+      transition: height, width 0.15s;
+      border-color: gray;
+  }
+
+  #tribute-link {
+      font-style: italic;
+      margin-top: 0;
+  }

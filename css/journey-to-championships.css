@@ -1,0 +1,92 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+
+  p {
+      color: white;
+      font-family: arial;
+      font-size: 20px;
+  }
+
+  #main {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+  }
+
+  #background {
+      display: flex;
+      flex-direction: column;
+      position:fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  #image {
+      display: flex;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+  }
+
+  #picture {
+      width: 100%;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+  }
+
+  #title {
+      display: flex;
+      justify-content: center;
+      font-size: 40px;
+      color: white;
+      margin-bottom: 20px;
+
+  }
+
+  #story {
+      display: flex;
+      flex-direction: column;
+      height: 1000px;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+  }
+
+  #picture {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0;
+      margin-bottom: 20px;
+  }
+
+  #kid {
+      width: 400px;
+      margin-top: 400px;
+  }
+
+  #tribute-info {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      text-indent: 30px;
+      text-align:justify;
+      line-height: 30px;
+  }
+
+  #paragraph {
+      margin-left: 20px;
+      margin-right: 20px;
+  }
